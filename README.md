@@ -19,15 +19,15 @@ The executable needs permission to manage Services. This can be achieved by runn
 Steps to create the binary:
 
 ```
-Open the project in visual studio
-Edit TincControl/Properties/Resources.resx and change __TINC_SERVICE_NAME_HERE__ to the your Tinc service name: tinc.<network_name>
-Build the project
-Start the executable with administrative provileges
+1. Open the project in visual studio
+2. Edit TincControl/Properties/Resources.resx and change __TINC_SERVICE_NAME_HERE__ to the your Tinc service name: tinc.<network_name>
+3. Build the project
+4. Start the executable with administrative provileges
 ```
 
 The TincControl icon will now appear in the Notification Area.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
